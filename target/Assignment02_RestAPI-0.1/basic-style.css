@@ -1,0 +1,100 @@
+* {
+   box-sizing: border-box;
+   font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #DDD;
+}
+
+header {
+   text-align: center;
+}
+
+footer {
+   margin: 0;
+   padding: 0 25px;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   background: #FFF;
+   font-size: 0.75em;
+}
+
+.main-content {
+   width: 50%;
+   border-radius: 5px;
+   margin: 20px auto;
+   padding: 50px 25px;
+   background-color: #FFF;
+   /* text-align: center */
+}
+
+.text-align-left {
+   text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+   text-align: right;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-size-small {
+	font-size: 0.75em;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.no-margin {
+	margin: 0 auto;
+}
+
+ /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.weather-icon {
+    font-size: 6em;
+}

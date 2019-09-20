@@ -1,0 +1,9 @@
+services/ApplicationConfig.class
+models/weather/Weather.class
+models/weather/Sys.class
+models/weather/Coord.class
+models/weather/Wind.class
+services/WeatherService.class
+models/weather/Main.class
+models/weather/Clouds.class
+models/WeatherReport.class
